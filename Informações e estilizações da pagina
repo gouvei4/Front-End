@@ -1,0 +1,116 @@
+# HTML-e-CSS
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rocketseat</title>
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/rocketseat-education/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico"
+        type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="https://github.com/gouvei4">GitHub</a>
+            <a href="https://pt-br.facebook.com/rocketseat/">Facebook</a>
+            <a href="https://www.instagram.com/rocketseat_oficial/?hl=pt-br">Instagram</a>
+        </div>
+    </header>
+    <div id="wrapper">
+        <img src="https://ia801004.us.archive.org/24/items/github.com-Rocketseat-expo-common-issues_-_2019-10-04_19-13-06/cover.jpg"
+            alt="Rocketseat">
+        <h1>Rocketseat</h1>
+        <h2>Seu ecossistema para aprender e evoluir em programação
+            Embarque no foguete com milhares de devs para aprender desenvolvimento web,
+            evoluir de forma contínua e se manter relevante no mercado, tudo isso na <a href="https://rocketseat.com.br"
+                target="_blank"> Rocketseat.</a>
+        </h2>
+        <ul>
+            <li>
+                JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+
+    <div id="links-footer" class="links">
+
+    </div>
+</body>
+
+</html>
+
+----------------------------------------------------CSS---------------------------------------------------------------
+
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+header {
+    padding-left: 32px;
+    border-bottom: 1px solid white;
+    background: rgba(black, yellow, blue, alpha);
+}
+
+.links {
+    text-align: center;
+}
+.links a {
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0px 16px;
+    text-decoration: none;
+}
+.links a:hover {
+    color: rebeccapurple;
+    transition: 200ms;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 32px;
+    height: 300px;
+}
+
+#wrapper h1 {
+    font-size: 62px;
+    line-height: 52px;
+    font-weight: bold;
+    padding: 32px;
+}
+
+#wrapper h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 32px;
+}
+
+#wrapper ul li {
+    padding: 20px;
+    font-size: 22px;
+    line-height: 12px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
