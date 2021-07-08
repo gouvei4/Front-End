@@ -1,0 +1,70 @@
+# HTML-e-CSS
+
+----------------------------------------------------CSS---------------------------------------------------------------
+
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+header {
+    padding-left: 32px;
+    border-bottom: 1px solid white;
+    background: rgba(black, yellow, blue, alpha);
+}
+
+.links {
+    text-align: center;
+}
+.links a {
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0px 16px;
+    text-decoration: none;
+}
+.links a:hover {
+    color: rebeccapurple;
+    transition: 200ms;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 32px;
+    height: 300px;
+}
+
+#wrapper h1 {
+    font-size: 62px;
+    line-height: 52px;
+    font-weight: bold;
+    padding: 32px;
+}
+
+#wrapper h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 32px;
+}
+
+#wrapper ul li {
+    padding: 20px;
+    font-size: 22px;
+    line-height: 12px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
